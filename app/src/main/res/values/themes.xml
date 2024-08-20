@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.MovieBooking" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.App.Start" parent="Theme.SplashScreen">
+
+        <item name="windowSplashScreenBackground" >@color/purple</item>
+        <item name="postSplashScreenTheme">@style/Theme.MovieBooking</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/reserve_my_seats_logo</item>
+
+    </style>
+
+</resources>
